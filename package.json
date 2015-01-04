@@ -1,0 +1,29 @@
+{
+  "name": "random-word-bot",
+  "version": "1.0.0",
+  "description": " twitter bot that tweets random words ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tejasmanohar/random-word-bot.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "tweet",
+    "random",
+    "words",
+    "random",
+    "words",
+    "automation"
+  ],
+  "author": "Tejas Manohar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tejasmanohar/random-word-bot/issues"
+  },
+  "homepage": "https://github.com/tejasmanohar/random-word-bot"
+}
