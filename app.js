@@ -9,8 +9,19 @@ var T = new Twit({
 });
 
 setInterval(function() { 
-  request.get('http://randomword.setgetgo.com/get.php', function(res) {
-    console.log(res.text);
-  });
-  // tweet random word
+  request
+    .get('http://randomword.setgetgo.com/get.php')
+    .end(function(error, res) {
+      if(error) {
+        return error;
+      } else {
+        T.post('statuses/update', { status: res.text }, function(err, data, response) {
+          if(err) {
+            return err;
+          } else {
+            return response;
+          }
+        });
+      } 
+    });
 }, 1800000);
