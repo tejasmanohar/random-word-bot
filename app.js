@@ -7,3 +7,8 @@ var T = new Twit({
   access_token:         process.env.ACCESS_TOKEN,
   access_token_secret:  process.env.ACCESS_TOKEN_SECRET,
 });
+
+setInterval(function() { 
+  // get random word
+  // tweet random word
+}, 1800000);
