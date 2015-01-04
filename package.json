@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/tejasmanohar/random-word-bot",
   "dependencies": {
-    "superagent": "^0.21.0"
+    "superagent": "^0.21.0",
+    "twit": "^1.1.19"
   }
 }
