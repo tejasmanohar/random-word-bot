@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/tejasmanohar/random-word-bot/issues"
   },
-  "homepage": "https://github.com/tejasmanohar/random-word-bot"
+  "homepage": "https://github.com/tejasmanohar/random-word-bot",
+  "dependencies": {
+    "superagent": "^0.21.0"
+  }
 }
