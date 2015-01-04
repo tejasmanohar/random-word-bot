@@ -9,6 +9,8 @@ var T = new Twit({
 });
 
 setInterval(function() { 
-  // get random word
+  request.get('http://randomword.setgetgo.com/get.php', function(res) {
+    console.log(res.text);
+  });
   // tweet random word
 }, 1800000);
