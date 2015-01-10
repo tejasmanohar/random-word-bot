@@ -13,13 +13,13 @@ setInterval(function() {
     .get('http://randomword.setgetgo.com/get.php')
     .end(function(error, res) {
       if(error) {
-        return error;
+        console.log(error);
       } else {
         T.post('statuses/update', { status: res.text }, function(err, data, response) {
           if(err) {
-            return err;
+            console.log(err);
           } else {
-            return response;
+            console.log(response);
           }
         });
       } 
